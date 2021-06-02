@@ -37,8 +37,4 @@ jobs:
         run: npx surge --project ./build --domain trial2.surge.sh
         env:
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN}}
-<<<<<<< HEAD
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN}}
-=======
-          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN}}
->>>>>>> 481cc0e95fed615a449732167030c36509ae3a13
